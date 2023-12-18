@@ -1,0 +1,32 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    background-color: #615f637c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+  
+.icon-button {
+    margin: 0 10px;
+}
+
+p {
+    margin: 0 10px;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #666;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}

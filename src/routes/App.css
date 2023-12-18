@@ -1,0 +1,40 @@
+.App {
+  text-align: left;
+  background-color: #342834;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  width: 50%;
+}
+
+nav {
+  float: right;
+  width: 50%;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  width: 300px;
+  margin: 10px;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, Link } from 'react-router-dom';
 import { useState, useEffect } from "react";
 import { Box, TextField, Button, InputAdornment} from "@mui/material";
 import { CiSearch } from "react-icons/ci";
@@ -31,6 +31,7 @@ function PlayerList() {
     />
     <div className='d-flex flex-wrap space-between'>
       {filteredData.map(player => (
+        <Link to={`/players/${player.id}`} key={player.id}>
         <PlayerCard 
           className={classes.card}
           key={player.id}
@@ -44,6 +45,7 @@ function PlayerList() {
           defending={player.defending}
           physicality={player.physicality}
         />
+        </Link>
       ))}
       </div>
     </>

@@ -12,6 +12,7 @@ import NewPost from './routes/NewPost';
 import RootLayout from './routes/RootLayout';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import PlayerProfile, {playerLoaderById} from './routes/PlayerProfile';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -25,6 +26,11 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage />,
         loader: playerLoader,
         children:[{path: "/post", element:<NewPost />}]
+      },
+      {
+        path: "/players/:id",
+        element:<PlayerProfile />,
+        errorElement: <ErrorPage />
       },
     ]
   },

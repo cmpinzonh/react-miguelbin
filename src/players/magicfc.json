@@ -1,33 +1,6 @@
 {
   "players": [
     {
-      "id": "d5f3e4a8-1b2c-4d6e-8f9a-0b1c2d3e4f5a",
-      "name": "Bruno Fernandes",
-      "position": "CAM",
-      "rating": 90,
-      "pace": 76,
-      "shooting": 89,
-      "passing": 93,
-      "dribbling": 86,
-      "defending": 71,
-      "physicality": 80,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Bruno_Fernandes_Portugal%2C_2018.jpg/225px-Bruno_Fernandes_Portugal%2C_2018.jpg"
-    },
-    {
-      "id": "f6e5d4c3-b2a1-4f5e-8d9c-0a1b2c3d4e5f",
-      "name": "Cristiano Ronaldo",
-      "position": "ST",
-      "rating": 89,
-      "pace": 91,
-      "shooting": 93,
-      "passing": 81,
-      "dribbling": 88,
-      "defending": 35,
-      "physicality": 77,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis%2C_September_2023_%28cropped%29.jpg/220px-Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis%2C_September_2023_%28cropped%29.jpg"
-    },
-    
-    {
       "id": "c1b2a3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p",
       "name": "Thibaut Courtois",
       "position": "GK",

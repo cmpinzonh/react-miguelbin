@@ -6,10 +6,12 @@ import { Link } from 'react-router-dom';
 function MainHeader() {
   return (
     <header className={classes.header}>
+      <Link className={classes.navLink} to='/'>
       <h1 className={classes.logo}>
         <MdHome />
         MiguelBin
       </h1>
+      </Link>
       <nav>
         <Link className={classes.navLink} to='/'>
           Home
@@ -17,16 +19,10 @@ function MainHeader() {
         <Link className={classes.navLink} to='/'>
           Players
         </Link>
-        <Link className={classes.navLink} to='/my-squad'>
+        <Link className={classes.navLink} to='/mysquad'>
           My Squad
         </Link>
       </nav>
-      <p>
-        <Link className={classes.button} to='/post'>
-          <MdPostAdd size={18} />
-          New Post
-        </Link>
-      </p>
     </header>
   );
 }

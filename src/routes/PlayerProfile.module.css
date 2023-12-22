@@ -38,3 +38,11 @@
     padding: 20px;
   }
   
+  .button {
+    background-color: #1c741c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  

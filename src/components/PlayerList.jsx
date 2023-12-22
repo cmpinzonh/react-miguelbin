@@ -8,7 +8,6 @@ import classes from './PlayerList.module.css';
 
 function PlayerList() {
   const data = useLoaderData();
-  console.log(data)
 
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -31,21 +30,8 @@ function PlayerList() {
     />
     <div className='d-flex flex-wrap space-between'>
       {filteredData.map(player => (
-        <Link to={`/players/${player.id}`} key={player.id}>
-        <PlayerCard 
-          className={classes.card}
-          key={player.id}
-          name={player.name}
-          position={player.position}
-          overall={player.rating}
-          pace={player.pace}
-          shooting={player.shooting}
-          passing={player.passing}
-          dribbling={player.dribbling}
-          defending={player.defending}
-          physicality={player.physicality}
+        <PlayerCard {...player}
         />
-        </Link>
       ))}
       </div>
     </>

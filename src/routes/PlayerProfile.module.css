@@ -1,0 +1,40 @@
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap
+  }
+  
+  .playerImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+  
+  .cardTitle {
+    color: #007bff;
+    font-size: 2rem;
+  }
+  
+  .cardText {
+    font-size: 1.2rem;
+  }
+  
+  .cardBody {
+    padding: 20px;
+  }
+  

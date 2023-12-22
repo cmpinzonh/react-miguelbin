@@ -9,7 +9,6 @@ export class PlayerProvider {
     }
   
     getPlayerById(id) {
-      console.log(this.playerList)
       return this.playerList.players.find(player => player.id === id);
     }
 }

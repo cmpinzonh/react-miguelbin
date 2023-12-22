@@ -1,8 +1,11 @@
 import React from 'react';
 import classes from './PlayerCard.module.css';
+import { Link } from 'react-router-dom';
 
 function PlayerCard(props) {
   return (
+    <>
+    <Link to={`/players/${props.id}`} key={props.id}>
     <div className={classes.card}>
       <div className={classes.name}>{props.name}</div>
       <div className={classes.position}>{props.position}</div>
@@ -34,6 +37,8 @@ function PlayerCard(props) {
         </div>
       </div>
     </div>
+    </Link>
+    </>
   );
 }
 
